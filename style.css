@@ -1,0 +1,133 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+
+/* Sección de visión */
+.vision {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vision h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+/* Sección de productos */
+.productos {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productos h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+.galeria-productos {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+
+}
+
+.producto {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+.producto p {
+    color: #666666;
+    margin: 0;
+}
+
+/* Sección de contacto */
+.contacto {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contacto h2 {
+    color: #007bff;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.boton {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    margin: 0 20px 20px 20px;
+}
